@@ -1,38 +1,177 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Your Name — Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mallory Tolliver | Computer Science and Data Science</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
+  <header class="hero">
     <h1>Mallory Tolliver</h1>
-    <p>CS + Data Science • Projects • Contact</p>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <p class="subtitle">Computer Science and Data Science</p>
+    <p class="tagline">Web Development • Data Analysis • Accessibility</p>
+
+    <div class="links">
+      <a href="MalloryTolliverResume.pdf" target="_blank">Resume</a>
+      <a href="https://github.com/mtolly101" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/mallory-tolliver-b2638a2b8/" target="_blank">LinkedIn</a>
+    </div>
   </header>
- 
-  <main id="projects">
-    <h2>Selected Projects</h2>
-    <section>
-      <h3>Smart Restaurant Analytics</h3>
-      <p>EDA + NLP + forecasting. <a href="https://github.com/you/project">Code</a> • <a href="https://demo.example">Demo</a></p>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am a Computer Science and Data Science double major at Willamette University,
+      graduating in May 2026. I have hands on experience in web accessibility,
+      automation, data analysis, and full stack development through academic projects
+      and industry internships.
+    </p>
+    <p>
+      I am particularly interested in software and web development and enjoy building
+      accessible, user-centered applications that solve real-world problems.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+      <div>
+        <h3>Programming Languages</h3>
+        <p>Python, C#, SQL, JavaScript, HTML, CSS</p>
+      </div>
+
+      <div>
+        <h3>Web and Accessibility</h3>
+        <p>WCAG Compliance, Semantic HTML, CSS Layouts, Chrome DevTools</p>
+      </div>
+
+      <div>
+        <h3>Data and Tools</h3>
+        <p>Microsoft SQL Server, Git, Postman, Visual Studio</p>
+      </div>
+
+      <div>
+        <h3>Languages</h3>
+        <p>Spanish (Intermediate)</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Featured Projects</h2>
+
+    <div class="project highlight">
+      <h3>Willamette University SSO Page Redesign</h3>
+      <p>
+        Leading the redesign of Willamette University's Single Sign-On (SSO) login page
+        to improve accessibility, clarity, and user experience for students, faculty,
+        and staff across campus systems.
+      </p>
+      <p class="tech">Accessibility • UX/UI • HTML • CSS • WCAG</p>
+    </div>
+
+    <div class="project highlight">
+      <h3>Parking Permit Application Redesign</h3>
+      <p>
+        Updated and redesigned the university parking permit application to improve
+        usability, accessibility, and form clarity, reducing friction for users
+        navigating the permit process.
+      </p>
+      <p class="tech">Accessibility • UX/UI • Web Forms • WCAG</p>
+    </div>
+
+    <div class="project">
+      <h3>Accessible University Web Interfaces</h3>
+      <p>
+        Co-developed and updated university websites to meet WCAG accessibility
+        standards, improving usability for students, faculty, and visitors.
+      </p>
+      <p class="tech">HTML • CSS • Accessibility Standards</p>
+    </div>
+
+    <div class="project">
+      <h3>Blazor eCommerce Prototype</h3>
+      <p>
+        Built a prototype eCommerce application using Blazor and SQL integration
+        to explore WebAssembly and modern web architecture.
+      </p>
+      <p class="tech">C# • Blazor • SQL • HTML • CSS</p>
+    </div>
+
+    <div class="project">
+      <h3>Fast Food Pricing Analysis Tool</h3>
+      <p>
+        Developed a Python application to analyze regional fast food pricing data
+        and support competitive strategy decisions.
+      </p>
+      <p class="tech">Python • SQL</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <div class="experience">
+      <h3>Web Accessibility Intern — Willamette University</h3>
+      <span>May 2025 – Present</span>
       <ul>
-        <li>Python, FastAPI, Postgres, Plotly</li>
-        <li>Deployed on Render</li>
+        <li>Updating Willamette University website for WCAG compliance to ensure all students, faculty and visitors can access it with ease</li>
+        <li>Co-developing and designing new accessible web interfaces using HTML, CSS and accessibility practices to improve usability and cohesion through the website</li>
       </ul>
-    </section>
-    <!-- Repeat for more projects -->
-  </main>
- 
-  <footer id="contact">
-    <p>Find me on <a href="https://github.com/your-username">GitHub</a> • <a href="mailto:you@example.com">Email</a></p>
+    </div>
+
+    <div class="experience">
+      <h3>Information Systems Intern — White Castle System</h3>
+      <span>May 2024 – July 2024</span>
+      <ul>
+        <li>Developed a C# automation tool to process CSV data files in collaboration with my supervisor to reduce workload and increase accuracy across teams</li>
+        <li>Built a Blazor eCommerce prototype using HTML, CSS and SQL Database integration to learn web assembly and digital transformation</li>
+      </ul>
+    </div>
+
+    <div class="experience">
+      <h3>Business Intelligence Intern — White Castle System</h3>
+      <span>May 2023 – July 2023</span>
+      <ul>
+        <li>Created a Python application to analyze and compare regional fast food pricing to provide insight concerning competitive strategy</li>
+        <li>Utilized Microsoft SQL Server and Postman for database queries and API testing while collaborating with coworkers to retrieve information and strengthening my knowledge of SQL</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+
+    <div class="education-grid">
+      <div>
+        <h3>Willamette University</h3>
+        <p>B.S. in Computer Science and Data Science</p>
+        <p>Expected Graduation: May 2026</p>
+      </div>
+
+      <div>
+        <h3>Upper Alrington High School</h3>
+        <p>High School Diploma</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Honors and Service</h2>
+    <ul>
+      <li>Presidential Volunteer Service Award: 100+ volunteer hours with Columbus Humane</li>
+      <li>Currently volunteer at Oregon Humane Society</li>
+      <li>College Honors Willamette University for Spring 2025 and Fall 2025</li>
+    </ul>
+  </section>
+
+  <footer>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:mallorytolliver@gmail.com">mallorytolliver@gmail.com</a></p>
+    <p>Columbus, OH</p>
   </footer>
 </body>
 </html>
