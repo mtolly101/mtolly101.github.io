@@ -113,13 +113,13 @@ footer {
   display: inline-block;
   margin-right: 12px;
   padding: 6px 12px;
-  background-color: #111;
-  color: white;
-  text-decoration: none;
   border-radius: 6px;
-  font-size: 14px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #222;
+  font-size: 0.9rem;
 }
 
 .project-links a:hover {
-  opacity: 0.8;
+  background-color: #eee;
 }
